@@ -7,12 +7,19 @@
    - Glass (2)
    - Metal (3)
    - Other (4)
-3. Two directories for data. Let's put them in /data directory on this GitHub repo - let's not go over 5GB of storage.
-   - /images
-   - /labels
+3. Directory structure:
+   - /train
+      - /images
+      - /labels
+   - /valid
+      - /images
+      - /labels
+   - /test
+      - /images
+      - /labels
 4. Each image should have the same name as its corresponding label
 5. Rename each pair of image and label to:
-   - [class_name]_[random_uuid].extension in case of single instance in the picture
+   - [class_number]_[random_uuid].extension in case of single instance in the picture
    - multiclass_[random_uuid].extension otherwise
 6. Let's use JPG image file extension and .txt label file extension
 7. Labels should have a common standard:
