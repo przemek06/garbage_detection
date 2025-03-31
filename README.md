@@ -8,15 +8,8 @@
    - Metal (3)
    - Other (4)
 3. Directory structure:
-   - /train
-      - /images
-      - /labels
-   - /valid
-      - /images
-      - /labels
-   - /test
-      - /images
-      - /labels
+   - /images
+   - /labels
 4. Each image should have the same name as its corresponding label
 5. Rename each pair of image and label to:
    - [class_number]_[random_uuid].extension in case of single instance in the picture
